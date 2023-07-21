@@ -1,0 +1,162 @@
+body{
+    font-family: "Lumanosimo", Arial, Helvetica, sans-serif;
+}
+h1{
+    color:cadetblue;
+   text-align: center;
+   font-size: 3.0em;
+   border: 1px solid black;
+   margin: auto auto;
+   padding: 25px;
+   background-color: rgba(119, 136, 153, .2);
+}
+h2{
+    color: cadetblue;
+    font-size: 2.0em;
+    
+}
+.container{
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(119, 136, 153, .2);
+}
+
+/* color*/
+
+.color-panel{
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.0em;
+    width: 20%;
+    min-height: 50px;
+    margin: 25px 25px;  
+}
+.green{
+    background-color: rgba(114, 229, 72, .5);
+    text-align: center;
+    margin-right: 25px;
+}
+.orange{
+    background-color: rgba(188, 131, 25, .5);
+    text-align: center;
+}
+.purple{
+    background-color: rgba(201, 33, 201, .5);
+    text-align: center;
+}
+.value{
+    display: inline;
+    font-size: .5em;
+    
+}
+.zonic{
+    display: block;
+}
+.fonder{
+    display: block;
+}
+.matrix{
+    display: block;
+}
+.green:hover{
+    color: rgb(1, 133, 1);
+}
+.orange:hover{
+    color: rgb(194, 108, 3);
+}
+.purple:hover{
+    color: darkorchid;
+}
+
+/*font*/
+
+.font-panel{
+    display: inline-block;
+    width: 30%;
+    margin: 25px auto;
+    min-height: 50px;
+    text-align: center;
+}
+.montserrat{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    text-decoration: underline;
+}
+.robotocondensed{
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    text-decoration: underline;
+}
+.victormono{
+    font-family: "Victor Mono", Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    text-decoration: underline;
+}
+.source-code-montserrat-light{
+    font-weight: 200;
+    text-decoration: none;
+}
+.source-code-montserrat-regular{
+    font-weight: 400;
+    text-decoration: none;
+}
+.source-code-montserrat-bold{
+    font-weight: 700;
+    text-decoration: none;
+}
+.source-code-roboto-bold{
+    font-weight: 300;
+    text-decoration: none;
+}
+.source-code-roboto-regular{
+    font-weight: 400;
+}
+.source-code-roboto-bold{
+    font-weight: 700;
+}
+.source-code-victor-light{
+    font-weight: 200;
+}
+.source-code-victor-regular{
+    font-weight: 400;
+}
+.source-code-victor-bold{
+    font-weight: 700;
+}
+
+/*styles*/
+
+.tstyles-container{
+    display: block;
+    width: 30%;
+    margin: 25px auto;
+    min-height: 50px;
+    font-size: 1.0em;
+   text-align: center;
+}
+.style-h1{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Victor Mono", Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
+}
+.style-h2{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Robotocondenced", Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.style-p{
+    font-weight: 200;
+    font-size: 18;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.list{
+    font-size: 1.0em;
+    font-family: "Lumanosimo", Arial, Helvetica, sans-serif;
+    text-align: left;
+}
